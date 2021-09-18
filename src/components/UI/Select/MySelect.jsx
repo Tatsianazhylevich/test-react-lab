@@ -16,6 +16,6 @@ const MySelect = ({ defaultValue, value, filteredPosts, selectByState }) => {
 export default MySelect;
 
 const StyledSelect = styled.select`
-    margin-top: 15px;
+    margin: 10px;
     border: 1px solid teal;
 `
