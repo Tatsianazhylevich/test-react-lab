@@ -37,6 +37,10 @@ const StyledLi = styled.li`
 const StyledLink = styled.a`
     text-decoration: none;
     color: black;
+    &:hover {
+        color: black;
+        font-weight: 500;
+    }
     &:focus {
         text-decoration: none;
         color: rgb(235, 155, 8);

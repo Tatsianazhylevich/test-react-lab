@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components'
 
-const MyInput = React.forwardRef((props, ref) => {
+const MyInput = (props) => {
     return (
-        <StyledInput ref={ref} {...props} />
+        <StyledInput  {...props} />
     )
-})
+}
 
 export default MyInput;
 
